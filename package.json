@@ -8,6 +8,7 @@
         "start": "astro dev",
         "build": "astro build",
         "preview": "astro preview",
+        "format": "rome format --write .",
         "astro": "astro"
     },
     "dependencies": {
@@ -20,5 +21,9 @@
         "astro": "^2.4.4",
         "svelte": "^3.59.1",
         "unocss": "^0.51.12"
+    },
+    "devDependencies": {
+        "@iconify-json/tabler": "^1.1.84",
+        "rome": "^12.1.3"
     }
 }
