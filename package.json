@@ -8,7 +8,7 @@
         "start": "astro dev",
         "build": "astro build",
         "preview": "astro preview",
-        "format": "rome format --write .",
+        "format": "biome format --write .",
         "astro": "astro"
     },
     "dependencies": {
